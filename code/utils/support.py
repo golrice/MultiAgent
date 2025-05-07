@@ -23,6 +23,3 @@ def store_args(method):
         self.__dict__.update(args)
         return method(*positional_args, **keyword_args)
     return wrapper
-
-def make _env(args):
-    
